@@ -1,0 +1,98 @@
+{
+    "case": "Louvre Heist",
+    "description": "A daring heist at the Louvre Museum has left the world in shock. A gang of thieves disguised as construction workers stole priceless crown jewels. Your mission is to track the criminals through Europe, following clues left behind, and bring them to justice.",
+    "cities": {
+        "paris": {
+            "name": "Paris",
+            "total_clues_needed": 3,
+            "location_clues": {
+                "louvre_museum": {
+                    "name": "Louvre Museum",
+                    "investigation_results": ["shattered glass", true, "vest fiber", true, "balcony footprint", true]
+                },
+                "cafe_de_flore": {
+                    "name": "Café de Flore",
+                    "investigation_results": ["funny cigarettes", false, "scooter receipt", false, "message on a napkin", true]
+                },
+                "gare_du_nord": {
+                    "name": "Gare du Nord",
+                    "investigation_results": ["a ticket for the comic-strip place", true, "abandoned luggage", false, "glove with fingerprint", true]
+                },
+                "montmartre_park": {
+                    "name": "Montmartre Park",
+                    "investigation_results": ["hair on bench", false, "food leftover", false, "dirty t-shirt", false]
+                }
+            }
+        },
+        "brussels": {
+            "name": "Brussels",
+            "total_clues_needed": 3,
+            "location_clues": {
+                "grand_place": {
+                    "name": "Grand Place",
+                    "investigation_results": ["secret meeting", false, "dusty jewel bag", true, "umbrella with monogram", true]
+                },
+                "train_station": {
+                    "name": "Train station",
+                    "investigation_results": ["red district ticket", false, "suspicious backpack", true, "security camera snapshot", true]
+                },
+                "comic_strip_museum": {
+                    "name": "Comic strip museum",
+                    "investigation_results": ["blackmarket deal", false, "getaway route", true, "coffee cup with initials", false]
+                },
+                "botanical_garden": {
+                    "name": "Botanical Garden",
+                    "investigation_results": ["nothing interesting here", true, "only plants and flowers", true, "a bench with graffiti", false]
+                }
+            }
+        },
+        "amsterdam": {
+            "name": "Amsterdam",
+            "total_clues_needed": 3,
+            "location_clues": {
+                "dam_square": {
+                    "name": "Dam Square",
+                    "investigation_results": ["street artists", true, "stained shirt", false, "tulip farm itinerary", false]
+                },
+                "anne_frank_house": {
+                    "name": "Anne Frank House",
+                    "investigation_results": ["disguised visitors", true, "bike receipt", false, "small key", true]
+                },
+                "canal_side_cafe": {
+                    "name": "Canal-side Café",
+                    "investigation_results": ["gate hideout", false, "uneaten sandwich", true, "unusual coin", false]
+                },
+                "vondelpark": {
+                    "name": "Vondelpark",
+                    "investigation_results": ["green grass", false,"people jogging", false, "dogs running around", false]
+                }
+            }
+        },
+        "berlin": {
+            "name": "Berlin",
+            "total_clues_needed": 3,
+            "location_clues": {
+                "brandenburg_gate": {
+                    "name": "Brandenburg Gate",
+                    "investigation_results": ["two men arguing", true, "scratched map of Europe", false, "silk scarf", true]
+                },
+                "museum_island": {
+                    "name": "Museum Island",
+                    "investigation_results": ["ticket stub to winner city", false, "jewelry toolkit", true, "Vienna train station address", false]
+                },
+                "alexanderplatz": {
+                    "name": "Alexanderplatz",
+                    "investigation_results": ["phone number on paper", true, "polishing cloth", false, "partial CCTV footage", true]
+                },
+                "tiergarten": {
+                    "name": "Tiergarten",
+                    "investigation_results": ["rare flower", false, "dirty bucket", false, "a fountain with ducks", false]
+                }
+            }
+        }
+    },
+    "progression_graph": ["paris", "brussels", "amsterdam", "berlin", "vienna"],
+    "criminal_name": "Lucien Moreau",
+    "mission_max_days": 30,
+    "max_off_context_messages": 5
+}

@@ -1,0 +1,52 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cogniconsole"
+version = "0.1.0b1"
+description = "A Python framework for building structured, controllable AI bots."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+authors = [
+    {name = "Wilter Franceschi", email = "contact@orbitalsea.com"},
+    {name = "Vanessa Figueiredo", email = "explorailab@gmail.com"}
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Libraries",
+]
+
+# Core library has no strict dependencies
+dependencies = []
+
+[project.optional-dependencies]
+example = [
+    "requests>=2.28.0",
+    "openai>=1.0.0"
+]
+
+[project.urls]
+Homepage = "https://cogniconsole.com"
+Repository = "https://github.com/WillFranceschi/cogniconsole"
+Documentation = "https://github.com"
+"Bug Tracker" = "https://github.com"
+
+[project.scripts]
+cogniconsole = "cogniconsole.main:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["cogniconsole"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/cogniconsole",
+    "/README.md",
+    "/LICENSE",
+]
