@@ -2,12 +2,13 @@ import os
 import sys
 from pathlib import Path
 
-# Ensure /project is in sys.path
-sys.path.append(str(Path(__file__).resolve().parent.parent.parent))
+# Ensure /project is in sys.path if coding without cogniconsole package installed.
+# Caution! The next path is hardcoded and is a hack.
+# sys.path.append(str(Path(__file__).resolve().parent.parent.parent))
 
-print(str(Path(__file__).resolve().parent.parent.parent))
+# print(str(Path(__file__).resolve().parent.parent.parent))
 
-exit(0)
+# exit(0)
 
 from cogniconsole.bot import Bot
 
