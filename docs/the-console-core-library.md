@@ -89,4 +89,4 @@ _bots/
 
 -----
 
-> **Next Step:** To learn how to structure your Python logic within these nodes, proceed to the [Cartridges Documentation](cartridges.md).
+> **Next Step:** To learn how to structure your Python logic within these nodes, proceed to the [Cartridges Documentation](how-to-create-cartridges.md).
