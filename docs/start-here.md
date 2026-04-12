@@ -10,7 +10,7 @@ Cogniconsole is heavily inspired by **classic video-game architecture**.
 * **The Console (The Library):** This is the core engine you installed via pip. It provides the "hardware" and system utilities—module loading (`node_loader`), the base `Bot` class, memory management, and API integration tools.
 * **The Cartridge (The Implementation):** This is the "software" created by the developer. A cartridge contains the specific logic, story, or task-oriented nodes. 
 
-This separation allows flexibility; the same engine can run a complex murder-mystery game, a personal research assistant, or a technical support bot. For a deep dive into building these, see the [Cartridge Documentation](cartridges.md).
+This separation allows flexibility; the same engine can run a complex murder-mystery game, a personal research assistant, or a technical support bot. For a deep dive into building these, see the [Cartridge Documentation](how-to-create-cartridges.md).
 
 ## 2. Advantages of using Cogniconsole
 
