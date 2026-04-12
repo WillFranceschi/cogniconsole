@@ -44,6 +44,6 @@ While the library is already stable and production-ready, we have a clear path f
 
 Ready to build? Dive into the rest of our documentation to master the system:
 
-* **[The Console](console.md):** Deep dive into the CLI, installation, and environment configuration.
-* **[Cartridges](cartridges.md):** Detailed technical guide on folder structures, nodes, and building logic.
-* **[Author's Notes](authors-notes.md):** The story behind the project and specific design choices.
+* **[The Console](the-console-core-library.md):** Deep dive into the CLI, installation, and environment configuration.
+* **[Cartridges](how-to-create-cartridges.md):** Detailed technical guide on folder structures, nodes, and building logic.
+* **[Authors' motivations](authors-motivations.md):** The story behind the project and specific design choices.
